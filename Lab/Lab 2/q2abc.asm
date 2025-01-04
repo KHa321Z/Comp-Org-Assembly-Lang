@@ -1,0 +1,10 @@
+[org 0x0100]
+
+	MOV AX, [0x0200]
+	MOV CX, [0x0250]
+	
+	MOV [0x0200], CX
+	MOV [0x0250], AX
+
+	MOV AX, 0x4C00
+	INT 0x21
