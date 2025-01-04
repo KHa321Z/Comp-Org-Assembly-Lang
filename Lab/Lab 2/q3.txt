@@ -1,0 +1,10 @@
+1.  The fastest addressing mode is immediate addressing where a constant value is directly loaded into registers.
+2.  Immediate addressing uses a constant or literal value directly within the instruction.
+3.  I don't know.
+4.  Indirect addressing provides flexibility as when the size of your file changes the addressing mode automatically caters to the change in address. Furthermore, you can also access consecutive memory locations by simply adding an offset to the registers.
+5.  Registers commonly used are BX, BP, SI, DI
+6.  Indirect or Indexed addressing is ideal for initializing registers.
+7.  A base address and an index is used to combine to form the effective address.
+8.  Indirect addressing is useful since it involves registers whose values can be changed dynamically during runtime. This allows for access of dynamic memory locations.
+9.  Indirect addressing is suitable for navigating arrays and data structures.
+10. It allows for shifting values from one register to another
